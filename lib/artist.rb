@@ -1,5 +1,10 @@
 class Artist
 
+  attr_accessor
 
+  @@all = []
 
-end 
+  def self.all
+    @@all
+  end 
+end
